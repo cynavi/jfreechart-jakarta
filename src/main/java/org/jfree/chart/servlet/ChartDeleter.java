@@ -41,8 +41,8 @@ import java.io.Serializable;
 import java.util.Iterator;
 import java.util.List;
 
-import javax.servlet.http.HttpSessionBindingEvent;
-import javax.servlet.http.HttpSessionBindingListener;
+import jakarta.servlet.http.HttpSessionBindingEvent;
+import jakarta.servlet.http.HttpSessionBindingListener;
 
 /**
  * Used for deleting charts from the temporary directory when the users session

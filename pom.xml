@@ -10,7 +10,7 @@
 
     <artifactId>jfreechart</artifactId>
     <groupId>org.jfree</groupId>
-    <version>1.5.5</version>
+    <version>1.5.5-PATCHED</version>
     <packaging>jar</packaging>
 
     <organization>
@@ -53,9 +53,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
+            <groupId>jakarta.servlet</groupId>
+            <artifactId>jakarta.servlet-api</artifactId>
+            <version>6.1.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
